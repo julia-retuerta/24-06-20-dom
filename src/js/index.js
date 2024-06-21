@@ -31,7 +31,7 @@ const startPointElement = document.getElementById('start-point');
 console.dir(startPointElement);
 
 console.log(
-  `Soy un ${startPointElement.tagName} con el id ${startPointElement.id} y la clase ${startPointElement.className}. Mi padre es un ${startPointElement.parentElement.tagName} con la clase ${startPointElement.parentElement.className}, uno de mis hermanos es un ${startPointElement.previousElementSibling.tagName} con la clase ${startPointElement.previousElementSibling.className} y mi otro hermano es un ${startPointElement.parentElement.children[0].tagName} con la clase ${startPointElement.parentElement.children[0].className}`
+  `Soy un ${startPointElement.tagName} con el id ${startPointElement.id} y la clase ${startPointElement.className}. Mi padre es un ${startPointElement.parentElement.tagName} con el id ${startPointElement.parentElement.id} y con la clase ${startPointElement.parentElement.className}. Uno de mis hermanos es un ${startPointElement.previousElementSibling.tagName} con el id ${startPointElement.previousElementSibling.id} y con la clase ${startPointElement.previousElementSibling.className}. Mi otro hermano es un ${startPointElement.parentElement.children[0].tagName} con el id ${startPointElement.parentElement.children[0].id} y con la clase ${startPointElement.parentElement.children[0].className}`
 );
 
 //
